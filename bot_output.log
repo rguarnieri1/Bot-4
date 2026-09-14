@@ -1,0 +1,123 @@
+C:\Users\Pc\OneDrive\Bot\3 - ERTF Ita\1 - Bot Cripto.csproj : warning NU1902: Il pacchetto 'RestSharp' 107.3.0 presenta una vulnerabilità nota di gravità moderata, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc
+C:\Users\Pc\OneDrive\Bot\3 - ERTF Ita\1 - Bot Cripto.csproj : warning NU1902: Il pacchetto 'RestSharp' 107.3.0 presenta una vulnerabilità nota di gravità moderata, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc
+
+╔════════════════════════════════════════════════════════╗
+║       🤖 BOT 1 - ERTF-Crypto - VERSIONE 1.1            ║
+║                 Backtest + Live Trading                ║
+╚════════════════════════════════════════════════════════╝
+
+Strategia Principale Attiva:
+  ⭐ EMA Ribbon Trend Following + Candle Confirmation
+     • Win Rate Atteso: 60-62%
+     • Configurazione: EMA 5, 10, 20, 50
+     • Filtri: Volume, Candle Body, RSI, Breakout Confirmation
+
+Strategie Backup:
+  • Bullish Divergence V2 (Optimized) - se EMA non genera segnali
+
+Impostazioni:
+  • Capitale Iniziale: €150.00
+  • Intervallo Monitoraggio: 15 minuti
+  • Max Crypto: 25
+  • Risk per Trade: 2% (€3.00)
+  • Max Position Size: 10% (€15.00)
+  • Report Settimanale: Lunedì 00:00
+  • Notifiche Desktop: Abilitate
+  • Tracking Metriche: Ogni 10 cicli
+
+🤖 Bot Mercato Italiano - ERTF Ita avviato!
+📊 Fonte Dati: Interactive Brokers (Mercato Italiano)
+📊 Monitoraggio ogni 5 minuti...
+
+🔌 Tentativo connessione Interactive Brokers...
+🔌 Connessione DIRETTA a TWS Socket (porta 7497)...
+❌ Impossibile connettersi a TWS sulla porta 7497
+📝 Assicurati che:
+   1. TWS sia aperto e in esecuzione
+   2. API sia abilitata: Settings → API → Settings → Enable ActiveX and Socket Clients
+   3. La porta 7497 sia accessibile
+
+⚠️  ATTENZIONE: Sistema operando in modalità DEMO (no fallback a Gateway)
+
+⚠️  AVVISO: Connessione IB non disponibile
+Continuerò con dati demo per il testing
+
+
+⏱️  Ciclo #1 - 2026-09-09 09:53:28
+⚠️  Yahoo Finance: Status Forbidden per ENI.MI
+❌ ENI.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per ISP.MI
+❌ ISP.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per UCG.MI
+❌ UCG.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per TIT.MI
+❌ TIT.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per BAMI.MI
+❌ BAMI.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per BPE.MI
+❌ BPE.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per STM.MI
+❌ STM.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per ENEL.MI
+❌ ENEL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per AZM.MI
+❌ AZM.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per FTSEMIB.MI
+❌ FTSEMIB.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per EQNR.MI
+❌ EQNR.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per EXS2.MI
+❌ EXS2.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per VWRL.MI
+❌ VWRL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per MICC.MI
+❌ MICC.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per UNL.MI
+❌ UNL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+📈 Analizzando 0 titoli mercato italiano...
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 0
+   • Account value (stimato): €150,00
+⏰ Prossimo report settimanale: 2026-09-14 07:53:37
+
+⏱️  Ciclo #2 - 2026-09-09 09:58:37
+⚠️  Yahoo Finance: Status Forbidden per ENI.MI
+❌ ENI.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per ISP.MI
+❌ ISP.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per UCG.MI
+❌ UCG.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per TIT.MI
+❌ TIT.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per BAMI.MI
+❌ BAMI.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per BPE.MI
+❌ BPE.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per STM.MI
+❌ STM.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per ENEL.MI
+❌ ENEL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per AZM.MI
+❌ AZM.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per FTSEMIB.MI
+❌ FTSEMIB.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per EQNR.MI
+❌ EQNR.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per EXS2.MI
+❌ EXS2.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per VWRL.MI
+❌ VWRL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per MICC.MI
+❌ MICC.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+⚠️  Yahoo Finance: Status Forbidden per UNL.MI
+❌ UNL.MI: Nessun dato reale da Yahoo Finance - SKIPPATO
+📈 Analizzando 0 titoli mercato italiano...
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 0
+   • Account value (stimato): €150,00

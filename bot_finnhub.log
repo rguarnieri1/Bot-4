@@ -1,0 +1,3612 @@
+
+╔════════════════════════════════════════════════════════╗
+║       🤖 BOT 1 - ERTF-Crypto - VERSIONE 1.1            ║
+║                 Backtest + Live Trading                ║
+╚════════════════════════════════════════════════════════╝
+
+Strategia Principale Attiva:
+  ⭐ EMA Ribbon Trend Following
+     • Win Rate Atteso: 60-62%
+     • Configurazione: EMA 5, 10, 20, 50
+     • Filtri: Volume, RSI, Breakout Confirmation
+
+Impostazioni:
+  • Capitale Iniziale: €150.00
+  • Intervallo Monitoraggio: 15 minuti
+  • Max Crypto: 25
+  • Risk per Trade: 2% (€3.00)
+  • Max Position Size: 10% (€15.00)
+  • Report Settimanale: Lunedì 00:00
+  • Notifiche Desktop: Abilitate
+  • Tracking Metriche: Ogni 10 cicli
+
+🤖 Bot Mercato Italiano - ERTF Ita avviato!
+📊 Fonte Dati: Interactive Brokers (Mercato Italiano)
+📊 Monitoraggio ogni 15 minuti...
+
+🔌 Tentativo connessione Interactive Brokers...
+🔌 Connessione DIRETTA a TWS Socket (porta 7497)...
+❌ Impossibile connettersi a TWS sulla porta 7497
+📝 Assicurati che:
+   1. TWS sia aperto e in esecuzione
+   2. API sia abilitata: Settings → API → Settings → Enable ActiveX and Socket Clients
+   3. La porta 7497 sia accessibile
+
+⚠️  ATTENZIONE: Sistema operando in modalità DEMO (no fallback a Gateway)
+
+⚠️  AVVISO: Connessione IB non disponibile
+Continuerò con dati demo per il testing
+
+
+⏱️  Ciclo #1 - 2026-09-09 10:14:10
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+⏰ Prossimo report settimanale: 2026-09-14 08:14:17
+
+⏱️  Ciclo #2 - 2026-09-09 10:29:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #3 - 2026-09-09 10:44:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #4 - 2026-09-09 10:59:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 1
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #5 - 2026-09-09 11:14:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #6 - 2026-09-09 11:29:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 1
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #7 - 2026-09-09 11:44:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 1
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #8 - 2026-09-09 11:59:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #9 - 2026-09-09 12:14:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 1
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #10 - 2026-09-09 12:29:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #11 - 2026-09-09 12:44:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #12 - 2026-09-09 12:59:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 1
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #13 - 2026-09-09 13:14:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #14 - 2026-09-09 13:29:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #15 - 2026-09-09 13:44:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #16 - 2026-09-09 13:59:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #17 - 2026-09-09 14:14:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #18 - 2026-09-09 14:29:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
+
+⏱️  Ciclo #19 - 2026-09-09 14:44:17
+🔍 Tentando Finnhub: ENI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENI
+❌ ENI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: ISP.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ISP...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ISP-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ISP
+❌ ISP.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: UCG.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UCG...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: UCG-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per UCG
+❌ UCG.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: TIT.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: TIT...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: TIT-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per TIT
+❌ TIT.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BAMI.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BAMI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BAMI-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BAMI
+❌ BAMI.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: BPE.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: BPE...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: BPE-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per BPE
+❌ BPE.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: STM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: STM...
+   Stato HTTP: OK
+   Risposta: {"c":51.97,"d":-0.27,"dp":-0.5168,"h":52.865,"l":51.755,"o":52.76,"pc":52.24,"t":1788897600}
+✅ 📡 Finnhub: STM = €51,97 (Real-Time)
+✅ STM.MI: €51,97 (Finnhub Real-Time)
+🔍 Tentando Finnhub: ENEL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: ENEL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: ENEL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per ENEL
+❌ ENEL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: AZM.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: AZM...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: AZM-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per AZM
+❌ AZM.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: FTSEMIB.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: FTSEMIB...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: FTSEMIB-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per FTSEMIB
+❌ FTSEMIB.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: EQNR.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EQNR...
+   Stato HTTP: OK
+   Risposta: {"c":43.39,"d":1.3,"dp":3.0886,"h":43.49,"l":42.745,"o":42.99,"pc":42.09,"t":1788897600}
+✅ 📡 Finnhub: EQNR = €43,39 (Real-Time)
+✅ EQNR.MI: €43,39 (Finnhub Real-Time)
+🔍 Tentando Finnhub: EXS2.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: EXS2...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: EXS2-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per EXS2
+❌ EXS2.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: VWRL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: VWRL...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+🔍 Tentando Finnhub: VWRL-MI...
+   Stato HTTP: OK
+   Risposta: {"c":0,"d":null,"dp":null,"h":0,"l":0,"o":0,"pc":0,"t":0}
+   Prezzo non valido: c=0
+⚠️  Finnhub: Non disponibile per VWRL
+❌ VWRL.MI: Nessun dato reale da Finnhub - SKIPPATO
+🔍 Tentando Finnhub: MICC.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: MICC...
+   Stato HTTP: OK
+   Risposta: {"c":19.33,"d":0.01,"dp":0.0518,"h":19.55,"l":19.1,"o":19.17,"pc":19.32,"t":1788897600}
+✅ 📡 Finnhub: MICC = €19,33 (Real-Time)
+✅ MICC.MI: €19,33 (Finnhub Real-Time)
+🔍 Tentando Finnhub: UNL.MI...
+   Stato HTTP: Forbidden
+   Errore HTTP: Forbidden
+🔍 Tentando Finnhub: UNL...
+   Stato HTTP: OK
+   Risposta: {"c":5.8745,"d":0.0106,"dp":0.1808,"h":5.89,"l":5.81,"o":5.86,"pc":5.8639,"t":1788897600}
+✅ 📡 Finnhub: UNL = €5,87 (Real-Time)
+✅ UNL.MI: €5,87 (Finnhub Real-Time)
+📈 Analizzando 4 titoli mercato italiano...
+⚠️  Uso candele demo per STM.MI
+⚠️  Uso candele demo per EQNR.MI
+⚠️  Uso candele demo per MICC.MI
+⚠️  Uso candele demo per UNL.MI
+
+✅ Ciclo completato:
+   • Segnali trovati: 0
+   • Segnali filtrati (rischio): 0
+   • Trade aperti: 1
+   • Account value (stimato): €150,00
